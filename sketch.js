@@ -2,9 +2,9 @@ let ground;
 let engine;
 let importedShapes = [];
 let circles = [];
-const bgPath = "../assets/bg.svg";
+const bgPath = "./assets/bg.svg";
 let isMobile = false;  // 用于标识设备类型
-const svgPath = "../assets/letter.svg";
+const svgPath = "./assets/letter.svg";
 let arcRadius;
 let canvas;
 let permissionButton;
